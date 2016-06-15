@@ -1,0 +1,24 @@
+{
+  "name": "flickr_gallery_test",
+  "version": "1.0.0",
+  "description": "A test client to display public image get from Flick data feed",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gentlerain89/flickr_feed_viewer.git"
+  },
+  "keywords": [
+    "flickr",
+    "feed",
+    "viewer"
+  ],
+  "author": "vukieu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gentlerain89/flickr_feed_viewer/issues"
+  },
+  "homepage": "https://github.com/gentlerain89/flickr_feed_viewer#readme"
+}
