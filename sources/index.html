@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en" ng-app="flickrViewer">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<title>Flickr Feed Viewer</title>
+  	<!--Dependencies-->
+  	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-route/angular-route.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<!--Application-->
+	<script src="app.js"></script>
+	<script src="index.route.js"></script>
+	<!--Stylesheets-->
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="app.css">
+	<link rel="stylesheet" href="home/home.css">
+</head>
+<body>
+	<div ng-include="'components/header/header.html'"></div>
+	<div ng-view></div>
+</body>
+</html>

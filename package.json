@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/gentlerain89/flickr_feed_viewer/issues"
   },
-  "homepage": "https://github.com/gentlerain89/flickr_feed_viewer#readme"
+  "homepage": "https://github.com/gentlerain89/flickr_feed_viewer#readme",
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.13.4"
+  }
 }
