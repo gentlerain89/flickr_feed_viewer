@@ -1,0 +1,11 @@
+<div>
+<div class="flickv-search-box flicv-left" style="height: {{searchBoxPaddingTop + 50}}px;">
+	<div class="flicv-tag flicv-search-tag" ng-repeat="term in searchValues track by $index">
+			    {{term}}
+			<a href="javascript:void(0);" ng-click="removeTerm($index);"> X</a>
+	</div>
+	<input id="attrVal" type="text" ng-model="selectedValue" class="form-control attrVal flicv-left" tabindex=0/>
+	<div class="clr" ng-if="searchBoxPaddingLeft==0&&searchBoxPaddingTop>0"></div>
+</div>
+<a class="flicv-inline flicv-left clear-search" href="javascript:void(0);" ng-click="clearSearch();">Clear</a>
+</div>

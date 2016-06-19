@@ -1,0 +1,25 @@
+<div class="flckv-content {{viewGrid == true && 'flicv-img-grid-view' || 'flicv-img-list-view'}}">
+	<h4>Public Feeds ... </h4>
+
+	<button class="btn btn-default" ng-click="viewGrid=!viewGrid;">Switch to {{viewGrid == true && 'List' || 'Grid'}}</button>
+
+	<flickv-search search-submit="searchSubmit($searchValues)" clear-search-call-back="searchSubmit([])"></flickv-search>
+
+	<div class="clr"></div>
+
+	<p>Notice: Hover mouse on the image for its information!</p>
+
+	<h4 ng-show="imageList.length==0">Opps, we don't see any picture matched with your search</h4>
+
+	<flickv-cell cell-model="imageObj" cell-name-attr="{{fieldName.NAME}}" 
+	cell-source-attr="{{fieldName.SOURCE}}" cell-tags-attr={{fieldName.TAGS}}
+	ng-repeat="imageObj in imageList"></flickv-cell>
+
+	<div class="modal-backdrop" ng-show="!imageList">
+		 <div class="flickv-loader"></div>
+	</div>
+
+	<div class="alert alert-danger" ng-show="serverError">
+    	<strong>Opps!</strong> {{serverError}}.
+  	</div>
+</div>

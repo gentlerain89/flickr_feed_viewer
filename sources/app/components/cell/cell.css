@@ -1,0 +1,52 @@
+
+.flicv-img-list-view .flicv-cell {
+	width: 40%;
+	margin-bottom: 20px;
+	height: 100px;
+	display: block;
+	padding: 5px 0px;
+	position: relative;
+	background-color: #290519;
+}
+
+.flicv-img-list-view .flicv-cell img{
+	width: 90px;
+	height: 90px;
+}
+
+.flicv-img-list-view .flicv-cell .info {
+	display: block;
+	position: absolute;
+	top: 20px;
+	right: 50px;
+	width: 200px;
+	overflow: hidden;
+	color: #fff;
+}
+
+a:hover .info span {
+	display: none;
+}
+
+.flicv-img-list-view .flicv-layer {
+	padding-top: 20px;
+}
+
+.flicv-img-grid-view .flicv-cell {
+	width: 22%;
+	margin: 10px;
+	height: 224px;
+	display: inline-block;
+	padding: 7px;
+	background-color: #290519;
+	position: relative;
+}
+
+.flicv-img-grid-view .flicv-cell img {
+	width: 100%;
+	height: 210px;
+}
+
+.flicv-img-grid-view .flicv-cell .info {
+	display: none;
+}

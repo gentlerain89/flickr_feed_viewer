@@ -7,13 +7,14 @@ function ($routeProvider) {
 
 	$routeProvider.
         when('/feeds', {
-            templateUrl: 'feeds/feeds.html',
-            controller: 'FeedsController'
+            templateUrl: 'feed-viewer/feed-viewer.tmpl.html',
+            controller: 'FeedViewerController'
         }).
         when('/', {
-            templateUrl: 'home/home.html'
+            templateUrl: 'home/home.tmpl.html'
         }).
         otherwise({
             redirectTo: '/'
         });
+
 }]);
