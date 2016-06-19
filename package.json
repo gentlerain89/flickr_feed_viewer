@@ -4,7 +4,9 @@
   "description": "A test client to display public image get from Flick data feed",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
