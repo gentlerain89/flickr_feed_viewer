@@ -14,3 +14,4 @@ To run the project on your local, please remember to run:
 + npm install
 + bower install
 + grunt (optional)
+    Test github commit
