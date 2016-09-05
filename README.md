@@ -14,4 +14,7 @@ To run the project on your local, please remember to run:
 + npm install
 + bower install
 + grunt (optional)
+
     Test github commit
+Live demo:
+http://cedar-14-lucette.herokuapp.com
